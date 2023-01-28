@@ -1,0 +1,169 @@
+.footer { 
+    background-color: #1f2839;
+    padding-top: 5%;
+}
+
+.footer1 {
+    background-color: #1f2839;
+    display: flex;
+    color: black;
+    border-bottom: 1px solid gray;
+    padding-bottom: 10px;
+}
+
+
+
+.footer1 > div {
+    color: white;
+    margin: 0 auto;
+    width: 20%;
+}
+
+
+
+.footer__div1 > img {
+    display: block;
+    padding-top: 10px;
+    width: 80px;
+    margin: 0 auto;
+    width: 30%;
+}
+
+.footer1 > div > ul {
+    margin: 10px 0;
+    
+}
+
+.footer2 {
+    display: flex;
+}
+
+
+.footer1 > div > ul > li {
+    margin: 8px 0;
+    list-style: none;
+}
+
+.footer1 > div > ul > li > a {
+    text-decoration: none;
+    color: white;
+    font-size: small;
+}
+
+.footer2__linksp {
+    margin-right: 10px;
+}
+
+
+h4 {
+
+    margin-left: 25px;
+    font-size: small;
+}
+
+.footer2__links > ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    color: white;
+}
+
+
+.footer2__linksp {
+    font-size: x-small;
+    font-weight: 500;
+}
+
+.footer2__social {
+    margin-top: 20px;
+    margin-left: 25%;
+}
+
+@media (max-width: 600px) {
+    .footer {
+        background-color: #1f2839;
+    }
+    .footer1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer1 > .footer__div2 { 
+        margin-left: 1%;
+    }
+
+    .footer1 > .footer__div3 {
+        margin-top: -305px;
+        margin-bottom: 30px;
+    }
+
+    
+    .footer1 > .footer__div5 {
+        margin-top: -350px;
+        margin-bottom: 50px;
+        padding-top: 30px;
+    }
+    
+
+
+    /* .footer__div3 {
+        padding-top: -100px;
+    } */
+
+    .footer__div4 {
+        padding-right: 300px;
+        padding-bottom: 50px;
+    }
+
+    .footer2 > .footer2__links {
+        background-color: #1f2839;
+        margin-bottom: 20px;
+    }
+
+    .footer2__links > ul {
+        display: block;
+    }
+
+    .footer2__links > ul > li {
+        padding-top: 20px;
+    }
+
+    .footer2__social {
+        background-color: #1f2839;
+        padding-left: 1%;
+    }
+
+    
+
+}
+
+
+@media (width <= 912px){
+
+    .footer {
+        display: block;
+        /* align-items: center;
+        margin: auto;
+        width: 50%; */
+    }
+ 
+     .footer2 {
+        display: block;
+    }
+
+    .footer2 > .footer2__social {
+        margin: 0 auto;
+        margin-left: 39px;
+    }
+
+
+    .footer2 > .footer2__links > ul > li > h4 {
+        margin: 0 auto;
+        padding: 0 5px;
+        font-size: small;
+        font-weight: 300;
+    } 
+
+   
+
+}

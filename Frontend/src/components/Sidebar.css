@@ -1,0 +1,41 @@
+.sidebar {
+    background-color: #363940;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    display: block;
+    border: 0.1px #5f5f5f;
+    width: 230px;
+    overflow-y: scroll;
+    scrollbar-color: rebeccapurple green;
+    scrollbar-width: thin;
+}
+
+.sidebar.fixed {
+    display: none;
+}
+
+.closeIcon {
+    margin-top: 0;
+    margin-bottom: 20px;
+    margin-left: 130px;
+}
+
+.sidebar > ul {
+    margin-top: 50px;
+}
+
+.sidebar > ul > li {
+    padding: 15px 0;
+    margin-right: 20px;
+    list-style: none;
+    border-bottom: 1px solid gray;
+    height: 50%;
+}
+
+.sidebar > ul > li > a {
+    color: #f5f5ef;
+    text-decoration: none;
+   
+}

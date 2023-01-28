@@ -1,0 +1,38 @@
+
+.newsupdates {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1.5em;
+}
+
+  
+.newsupdates__post {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 3%;
+    flex: 1 0 20%;  /* flexibility and width of element */
+    margin: 10px;
+    padding: 10px;
+    padding-top: 0;
+}
+
+.newsupdates__post > a {
+    text-decoration: none;
+    color: initial;
+}
+
+@media (max-width : 912px){
+    .newsupdates {
+        margin-top: 2em;
+    }
+    .newsupdates__post{
+        flex: 30%;
+    }
+}
+
+@media (max-width: 600px){
+   
+    .newsupdates__post{
+        flex: 100%;
+    }
+}
+  

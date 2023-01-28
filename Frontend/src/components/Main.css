@@ -1,0 +1,38 @@
+.main-item {
+    display:flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin: 0 3.5em;
+
+}
+
+.main-item1 {
+    flex: 1 0 30%;  /* flexibility and width of element */
+    margin: 10px;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .main-item {
+        margin: 2em 1em;
+    }
+    .main-item1 {
+      flex-basis: 100%;
+    }
+}
+
+@media only screen and (max-width: 912px) {
+    .main-item {
+        margin-top: 10%;
+    }
+}
+
+@media only screen and (width:1000px){
+    .main-item1{
+        flex-basis: 30%;
+    }
+}
+  

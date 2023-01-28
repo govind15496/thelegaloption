@@ -1,0 +1,37 @@
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 3%;
+    padding-left: 1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-top: 0;
+    margin: 1%;
+}
+
+
+
+h2 {
+    font-size: x-large;
+    font-weight: 600;
+    color: black;
+}
+
+h3 {
+    font-size: large;
+    font-weight: 600;
+    color: black;
+}
+
+.card__date {
+    font-size: small;
+    font-weight: 500;
+    color: black;
+}
+
+
+
+.images01 {
+    width: 99%;
+    /* align-self: center; */
+}
+

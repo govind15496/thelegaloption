@@ -1,0 +1,24 @@
+@media (max-width: 600px){
+    .carddetails {
+        margin-top: 30px;
+
+    }
+    .carddetailes__img {
+        width: 50%;
+        height: auto;
+    }
+}
+.carddetails {
+    margin: auto;
+    width: 50%;
+}
+.carddetailes__img {
+    border-radius: 2%;
+    width: 100%;
+    height: auto;
+}
+
+
+.carddetails__link {
+    display: flex;
+}
